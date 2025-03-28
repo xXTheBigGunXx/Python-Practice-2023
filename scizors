@@ -1,0 +1,41 @@
+import time
+from itertools import repeat
+import random
+for i in range(100):
+    repeat
+    print("Vaski Vaski Či")
+    print("Šulinys, popierius, žirklės")
+    new = input("Rinkis ")
+    ins = new.capitalize()
+    if ins == ("Šulinys"):
+        inss = ("1")
+    elif ins ==  ("Popierius"):
+        inss = ("2") 
+    elif ins ==("Žirklės"):
+        inss = ("3")
+    rd = random.randint(1,3)
+    time.sleep(0.5)
+    if rd == (1):
+        print("Šulinys")
+        insss=(1)
+    elif rd ==  (2):
+        print("Popierius")
+        insss=(2) 
+    elif rd == (3):
+        print("Žirklės")
+        insss=(3)
+    time.sleep(0.5) 
+    if inss == ("3") and insss ==(2):
+        print("Laimėjai!!!")
+    elif inss == ("3") and insss ==(1):
+        print("Pralaimėjai!!")
+    elif inss ==("2") and insss == (3):
+        print("Pralaimėjai!!")
+    elif inss == ("2") and insss ==(1):
+        print("Laimėjai!!!")
+    elif inss == ("1") and insss ==(3):
+        print("Laimėjai!!!")
+    elif inss == ("1") and insss==(2):
+        print("Pralaimėjai!!")
+    else:
+        print("Lygiosios!")

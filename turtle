@@ -1,0 +1,15 @@
+import time
+import turtle
+from turtle import *
+turtle.speed(1)
+begin_fill()
+color("red")
+pensize("5")
+left(45)
+forward(100)
+circle(50, 180)
+left(270)
+circle(50,180)
+forward(102)
+end_fill()
+time.sleep(2)
